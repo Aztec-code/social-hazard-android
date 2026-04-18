@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+social-hazard:
+  min-players: 2
+  max-players: 4
+  cleanup-interval-ms: 60000
+  stale-room-threshold: PT20M
+  allowed-origin-patterns:
+    - "*"

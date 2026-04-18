@@ -1,0 +1,22 @@
+<resources>
+    <style name="Theme.SocialHazard" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/sh_primary</item>
+        <item name="colorOnPrimary">@color/sh_bg</item>
+        <item name="colorPrimaryContainer">@color/sh_primary_dark</item>
+        <item name="colorOnPrimaryContainer">@color/sh_text_primary</item>
+        <item name="colorSecondary">@color/sh_secondary</item>
+        <item name="colorOnSecondary">@color/sh_bg</item>
+        <item name="colorTertiary">@color/sh_tertiary</item>
+        <item name="colorSurface">@color/sh_surface</item>
+        <item name="colorSurfaceContainer">@color/sh_surface_alt</item>
+        <item name="colorSurfaceContainerHigh">@color/sh_surface_card</item>
+        <item name="colorOutline">@color/sh_outline</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="materialCardViewElevatedStyle">@style/Widget.SocialHazard.SurfaceCard</item>
+        <item name="materialButtonStyle">@style/Widget.SocialHazard.PrimaryButton</item>
+        <item name="textInputOutlinedStyle">@style/Widget.SocialHazard.Input</item>
+    </style>
+</resources>

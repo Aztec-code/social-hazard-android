@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.socialhazard.server.service.GameRoomServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-04-15T17:51:28" hostname="ISSAC" time="0.279">
+  <properties/>
+  <testcase name="judgePickUpdatesScoreAndEndsGameAtTargetScore()" classname="com.socialhazard.server.service.GameRoomServiceTest" time="0.229"/>
+  <testcase name="judgeRotatesAcrossClassicRounds()" classname="com.socialhazard.server.service.GameRoomServiceTest" time="0.011"/>
+  <testcase name="cleanupRemovesDisconnectedStaleRooms()" classname="com.socialhazard.server.service.GameRoomServiceTest" time="0.006"/>
+  <testcase name="duelModeCanAwardPointToJudgeWhenHouseSubmissionWins()" classname="com.socialhazard.server.service.GameRoomServiceTest" time="0.006"/>
+  <testcase name="submittedCardsAreRefilledWhenRoundAdvances()" classname="com.socialhazard.server.service.GameRoomServiceTest" time="0.008"/>
+  <testcase name="roomLifecycleSupportsCreateStartCancelAndDelete()" classname="com.socialhazard.server.service.GameRoomServiceTest" time="0.007"/>
+  <testcase name="reconnectReturnsCurrentStateIncludingPrivateHand()" classname="com.socialhazard.server.service.GameRoomServiceTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

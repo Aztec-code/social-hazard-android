@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sh_bg">#0C1116</color>
+    <color name="sh_bg_alt">#131922</color>
+    <color name="sh_surface">#151B22</color>
+    <color name="sh_surface_alt">#1B222B</color>
+    <color name="sh_surface_card">#202833</color>
+    <color name="sh_surface_prompt">#26313D</color>
+    <color name="sh_surface_black_card">#0F141B</color>
+    <color name="sh_surface_black_card_alt">#18202A</color>
+    <color name="sh_surface_emphasis">#2A3440</color>
+    <color name="sh_surface_inset">#171E27</color>
+    <color name="sh_outline">#33404E</color>
+    <color name="sh_outline_black_card">#405063</color>
+    <color name="sh_outline_soft">#242E39</color>
+    <color name="sh_primary">#D7A15C</color>
+    <color name="sh_primary_dark">#BA8748</color>
+    <color name="sh_secondary">#8FB7AA</color>
+    <color name="sh_tertiary">#95A8C8</color>
+    <color name="sh_error">#FF7676</color>
+    <color name="sh_text_primary">#F4F7FB</color>
+    <color name="sh_text_secondary">#B0BAC8</color>
+    <color name="sh_text_muted">#7C8999</color>
+    <color name="sh_chip_bg">#1A232C</color>
+    <color name="sh_scrim">#33000000</color>
+    <color name="sh_success">#88C39B</color>
+    <color name="sh_warning">#CFAE73</color>
+    <color name="sh_divider">#18212B</color>
+    <color name="sh_overlay_soft">#14FFFFFF</color>
+    <color name="sh_overlay_warm">#14D7A15C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

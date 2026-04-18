@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/sh_bg" />
+        </shape>
+    </item>
+
+    <item android:gravity="top">
+        <shape>
+            <size android:height="240dp" />
+            <gradient
+                android:angle="270"
+                android:endColor="@android:color/transparent"
+                android:startColor="@color/sh_bg_alt" />
+        </shape>
+    </item>
+
+    <item android:top="72dp" android:left="-24dp">
+        <shape android:shape="oval">
+            <size
+                android:width="220dp"
+                android:height="220dp" />
+            <solid android:color="@color/sh_overlay_soft" />
+        </shape>
+    </item>
+
+    <item android:top="140dp" android:right="-36dp" android:gravity="end">
+        <shape android:shape="oval">
+            <size
+                android:width="180dp"
+                android:height="180dp" />
+            <solid android:color="@color/sh_overlay_warm" />
+        </shape>
+    </item>
+
+    <item android:gravity="bottom">
+        <shape>
+            <size android:height="180dp" />
+            <gradient
+                android:angle="90"
+                android:endColor="@android:color/transparent"
+                android:startColor="@color/sh_overlay_soft" />
+        </shape>
+    </item>
+</layer-list>

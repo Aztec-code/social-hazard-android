@@ -1,0 +1,24 @@
+[Unit]
+Description=Social Hazard Spring Boot Backend
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=socialhazard
+Group=socialhazard
+WorkingDirectory=/opt/social-hazard
+EnvironmentFile=/etc/social-hazard/social-hazard.env
+ExecStart=/bin/bash -lc '/usr/bin/java $JAVA_OPTS -jar /opt/social-hazard/social-hazard-server.jar'
+ExecStop=/bin/kill -15 $MAINPID
+SuccessExitStatus=143
+Restart=always
+RestartSec=5
+TimeoutStopSec=30
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+LimitNOFILE=65535
+
+[Install]
+WantedBy=multi-user.target

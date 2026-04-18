@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.SocialHazard.SelectionCard"
+    android:id="@+id/answer_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/space_8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="110dp"
+        android:orientation="vertical"
+        android:padding="@dimen/space_16">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blue_card_label"
+            android:textAppearance="@style/TextAppearance.SocialHazard.Eyebrow" />
+
+        <TextView
+            android:id="@+id/selection_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_room_code"
+            android:layout_marginTop="@dimen/space_12"
+            android:paddingHorizontal="@dimen/space_12"
+            android:paddingVertical="@dimen/space_4"
+            android:text="Selected"
+            android:textColor="@color/sh_primary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/answer_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10"
+            android:textAppearance="@style/TextAppearance.SocialHazard.BodyStrong"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/answer_footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_12"
+            android:textAppearance="@style/TextAppearance.SocialHazard.SectionLabel" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

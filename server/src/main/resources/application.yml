@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: social-hazard-server
+
+server:
+  port: 8080
+  shutdown: graceful
+
+social-hazard:
+  min-players: 3
+  max-players: 4
+  default-target-score: 5
+  min-target-score: 3
+  max-target-score: 10
+  duel-hand-size: 6
+  classic-hand-size: 6
+  cleanup-interval-ms: 60000
+  stale-room-threshold: PT20M
+  allowed-origin-patterns:
+    - "*"

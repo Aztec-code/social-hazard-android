@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.SocialHazard.Eyebrow" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/sh_secondary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <style name="TextAppearance.SocialHazard.SectionLabel" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textColor">@color/sh_text_secondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+
+    <style name="TextAppearance.SocialHazard.Display" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="android:textColor">@color/sh_text_primary</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.SocialHazard.Headline" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/sh_text_primary</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.SocialHazard.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/sh_text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.SocialHazard.Body" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/sh_text_secondary</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+    <style name="TextAppearance.SocialHazard.BodyStrong" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/sh_text_primary</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+
+    <style name="TextAppearance.SocialHazard.Metric" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/sh_text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.SocialHazard.Code" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/sh_text_primary</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.06</item>
+    </style>
+
+    <style name="Widget.SocialHazard.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="titleTextColor">@color/sh_text_primary</item>
+        <item name="subtitleTextColor">@color/sh_text_secondary</item>
+        <item name="navigationIconTint">@color/sh_text_primary</item>
+        <item name="titleTextAppearance">@style/TextAppearance.SocialHazard.Title</item>
+    </style>
+
+    <style name="Widget.SocialHazard.SurfaceCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/sh_surface_card</item>
+        <item name="strokeColor">@color/sh_outline</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="rippleColor">@color/sh_overlay_soft</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.SocialHazard.Large</item>
+    </style>
+
+    <style name="Widget.SocialHazard.PromptCard" parent="Widget.SocialHazard.SurfaceCard">
+        <item name="android:background">@drawable/bg_prompt_card</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.SocialHazard.BlackCard" parent="Widget.SocialHazard.SurfaceCard">
+        <item name="android:background">@drawable/bg_black_card</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.SocialHazard.SelectionCard" parent="Widget.SocialHazard.SurfaceCard">
+        <item name="cardBackgroundColor">@color/sh_surface_alt</item>
+        <item name="rippleColor">@color/sh_overlay_warm</item>
+    </style>
+
+    <style name="Widget.SocialHazard.PanelCard" parent="Widget.SocialHazard.SurfaceCard">
+        <item name="android:background">@drawable/bg_panel</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.SocialHazard.MetricCard" parent="Widget.SocialHazard.SurfaceCard">
+        <item name="android:background">@drawable/bg_metric_panel</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.SocialHazard.InfoChip" parent="Widget.Material3.Chip.Assist">
+        <item name="chipBackgroundColor">@color/sh_chip_bg</item>
+        <item name="chipStrokeColor">@color/sh_outline_soft</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/sh_text_secondary</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.SocialHazard.Pill</item>
+    </style>
+
+    <style name="Widget.SocialHazard.Input" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/sh_surface_alt</item>
+        <item name="boxStrokeColor">@color/sh_outline</item>
+        <item name="hintTextColor">@color/sh_text_muted</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.SocialHazard.Medium</item>
+    </style>
+
+    <style name="Widget.SocialHazard.PrimaryButton" parent="Widget.Material3.Button">
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="backgroundTint">@color/sh_primary</item>
+        <item name="android:textColor">@color/sh_bg</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.SocialHazard.Pill</item>
+    </style>
+
+    <style name="Widget.SocialHazard.SecondaryButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="backgroundTint">@color/sh_surface_alt</item>
+        <item name="strokeColor">@color/sh_outline_soft</item>
+        <item name="android:textColor">@color/sh_text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.SocialHazard.Pill</item>
+    </style>
+
+    <style name="Widget.SocialHazard.TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/sh_text_secondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style
+        name="ShapeAppearanceOverlay.SocialHazard"
+        parent="" />
+
+    <style name="ShapeAppearanceOverlay.SocialHazard.Large" parent="@style/ShapeAppearanceOverlay.SocialHazard">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/card_radius</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.SocialHazard.Medium" parent="@style/ShapeAppearanceOverlay.SocialHazard">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/card_radius_small</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.SocialHazard.Pill" parent="@style/ShapeAppearanceOverlay.SocialHazard">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.SocialHazard.Circle" parent="@style/ShapeAppearanceOverlay.SocialHazard">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

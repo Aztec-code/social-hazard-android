@@ -1,0 +1,26 @@
+server:
+  address: ${SERVER_ADDRESS:127.0.0.1}
+  port: ${SERVER_PORT:8081}
+  shutdown: graceful
+  forward-headers-strategy: ${SERVER_FORWARD_HEADERS_STRATEGY:framework}
+
+spring:
+  lifecycle:
+    timeout-per-shutdown-phase: ${SHUTDOWN_TIMEOUT:20s}
+
+logging:
+  level:
+    root: ${LOG_LEVEL_ROOT:INFO}
+    com.socialhazard.server: ${LOG_LEVEL_APP:INFO}
+
+social-hazard:
+  min-players: ${SOCIAL_HAZARD_MIN_PLAYERS:3}
+  max-players: ${SOCIAL_HAZARD_MAX_PLAYERS:4}
+  default-target-score: ${SOCIAL_HAZARD_DEFAULT_TARGET_SCORE:5}
+  min-target-score: ${SOCIAL_HAZARD_MIN_TARGET_SCORE:3}
+  max-target-score: ${SOCIAL_HAZARD_MAX_TARGET_SCORE:10}
+  duel-hand-size: ${SOCIAL_HAZARD_DUEL_HAND_SIZE:6}
+  classic-hand-size: ${SOCIAL_HAZARD_CLASSIC_HAND_SIZE:6}
+  cleanup-interval-ms: ${SOCIAL_HAZARD_CLEANUP_INTERVAL_MS:60000}
+  stale-room-threshold: ${SOCIAL_HAZARD_STALE_ROOM_THRESHOLD:PT20M}
+  allowed-origin-patterns: ${SOCIAL_HAZARD_ALLOWED_ORIGIN_PATTERNS:https://api.fluxcloud.dev}
