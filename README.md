@@ -62,30 +62,15 @@ Place screenshots here once ready:
 
 ## Links
 
-- APK: `[Add APK link here]`
-- Website: `[Add website link here]`
-- GitHub: `[Add GitHub repo link here]`
+- APK: https://firecloud.studio/downloads/Social_Hazard(V1).apk
+- Website: https://firecloud.studio/
 
 ## Setup Instructions
 
 ### Android Client
 
-1. Open the project in Android Studio.
-2. Make sure the backend URL configuration points to either your local server or deployed VPS.
-3. Build the app:
-
-```powershell
-.\gradlew.bat :app:assembleDebug
-```
-
-4. Install and run on an emulator or Android device.
-
-### Backend
-
-1. Go to the `server/` project.
-2. Configure environment values for your host, port, and deployment mode.
-3. Start the backend locally or deploy it to your VPS.
-4. Make sure the Android client points to the correct WebSocket endpoint.
+1. Install and run on an emulator or Android device.
+2. Start playing
 
 ## Backend Deployment Summary
 
@@ -102,12 +87,18 @@ The backend is self-hosted on a VPS and serves as the authoritative multiplayer 
 
 ## Why I Built This
 
-`[Fill this in manually]`
+I built this mainly now to distribute the game around my university and play along with my friends. Not just a boring game but something with indeliable twists, funny and something worth bonding over friends with.
+I wanted a real multiplayer product, not just a local demo or game that runs locally so I made in online by running the backend through my VPS
+I also was figuring out how to make real use of my website and it seems the best way is by marketing my game and this product there
 
 ## Biggest Challenge
 
-`[Fill this in manually]`
+getting live multiplayer sync working reliably(turns out it is not as easy as I thought, getting it to reliably work took the soul out of me)
+wiring WebSocket backend and deployment
+turning separate pieces into one downloadable product
 
 ## What I Learned
 
-`[Fill this in manually]`
+deployment matters as much as coding
+presentation changes how a project is perceived
+backend/API consistency and release packaging were way harder than I expect
