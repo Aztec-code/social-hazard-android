@@ -48,7 +48,8 @@ On the Android side, fragments handle UI, view models own screen state, and the 
 
 Place screenshots here once ready:
 
-- `[Home Screen Screenshot]`
+- <img width="1080" height="1543" alt="Screenshot_20260418_081659_Social Hazard" src="https://github.com/user-attachments/assets/d9dffdfc-e746-4acd-b220-412353178e39" />
+
 - `[Create / Join Room Screenshot]`
 - `[Lobby Screenshot]`
 - `[Gameplay Screenshot]`
