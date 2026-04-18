@@ -50,11 +50,15 @@ Place screenshots here once ready:
 
 - <img width="1080" height="1543" alt="Screenshot_20260418_081659_Social Hazard" src="https://github.com/user-attachments/assets/d9dffdfc-e746-4acd-b220-412353178e39" />
 
-- `[Create / Join Room Screenshot]`
-- `[Lobby Screenshot]`
-- `[Gameplay Screenshot]`
-- `[Judge / Result Screenshot]`
-- `[Final Scoreboard Screenshot]`
+- <img width="4312" height="3452" alt="Screenshot_20260418_085135_Social Hazard" src="https://github.com/user-attachments/assets/d4e1de38-fac6-4f60-b562-3146efb2a999" />
+
+-<img width="1080" height="864" alt="Screenshot_20260418_085605_Social Hazard" src="https://github.com/user-attachments/assets/9fd1c70d-27b4-49b8-bd5a-9e4b45a993a0" />
+
+- <img width="4320" height="3408" alt="Screenshot_20260418_085014_Social Hazard" src="https://github.com/user-attachments/assets/a9ab34f4-d67d-4d24-96e4-aca8e7975db2" />
+
+-<img width="1080" height="2225" alt="Screenshot_20260418_081307_Social Hazard" src="https://github.com/user-attachments/assets/7b440a01-06a2-4121-85b8-4a4bc474c20a" />
+
+- <img width="998" height="1800" alt="Screenshot_20260418_084820_Social Hazard" src="https://github.com/user-attachments/assets/bc4de689-2eed-4289-9da8-492a15113411" />
 
 ## Links
 
